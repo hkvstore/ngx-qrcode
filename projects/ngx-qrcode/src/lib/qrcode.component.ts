@@ -24,7 +24,7 @@ export class QrcodeComponent implements OnChanges {
   @Input() colorDark = DEFAULT_VALUES.colorDark;
   @Input() colorLight = DEFAULT_VALUES.colorLight;
 
-  @ViewChild('qrcElement') qrcElement: ElementRef;
+  @ViewChild('qrcElement', { static: false }) qrcElement: ElementRef;
 
   constructor(private renderer: Renderer2) {
   }
