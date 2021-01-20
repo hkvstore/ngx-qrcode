@@ -1,6 +1,6 @@
 {
   "name": "@hkvstore/ngx-qrcode",
-  "version": "9.0.1",
+  "version": "9.1.0",
   "description": "An Angular component for generating QRCodes",
   "homepage": "https://github.com/techiediaries/ngx-qrcode",
   "private": false,
@@ -39,13 +39,13 @@
   },
   "dependencies": {
     "qrcode": "1.4.2",
-    "tslib": "^1.10.0"
+    "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": ">=6.0.0 || <=10.0.0",
-    "@angular/core": ">=6.0.0 || <=10.0.0"
+    "@angular/common": ">=6.0.0",
+    "@angular/core": ">=6.0.0"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=12.14.1"
   }
 }
